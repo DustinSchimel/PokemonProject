@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>16</y>
+      <w>248</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Pokemon/
+--
+- name : String
+- number : int
+- canEvolve : boolean
+- health : int
+- attackPoints : int
+- enhancmentModifier : double
+
+--
++ Pokemon(int, String) :constructor
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>120</x>
+      <y>16</y>
+      <w>152</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Pokemon Project Design
+Dustin Schimel
+bg=red
+12.14.17</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>80</y>
+      <w>248</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/package :AbstractClass or Interface/
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>208</y>
+      <w>248</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>package:: ClassName
+--
+data members
+
+--
+methods/constructors</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>216</y>
+      <w>248</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Dragon/
+--
+
++ moveOutrage(int) : String
++ moveDragonDance(int) : String
++ moveDragonPulse() : String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>336</y>
+      <w>248</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Ground/
+--
+
++ moveEarthquake() : String
++ moveFissure() : String
++ moveDig() : String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>456</y>
+      <w>248</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Fire/
+--
+
++ moveFlamethrower() : String
++ moveFireBlast() : String
++ moveInferno() : String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>16</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Haxorus
+--
+
+--
++ Haxorus(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>8</y>
+      <w>224</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>72</y>
+      <w>224</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;180.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>96</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Flygon
+--
+
+--
++ Flygon(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>8</y>
+      <w>224</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>176</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Hydreigon
+--
+
+--
++ Hydreigon(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>256</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Goodra
+--
+
+--
++ Goodra(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>336</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Typhlosion
+--
+
+--
++ Typhlosion(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>416</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Ninetales
+--
+
+--
++ Ninetales(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>152</y>
+      <w>224</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;230.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>152</y>
+      <w>224</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>576</y>
+      <w>248</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Dark/
+--
+
++ moveDarkPulse() : String
++ moveCrunch() : String
++ modeNightSlash() : String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>8</y>
+      <w>224</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>208</y>
+      <w>224</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>232</y>
+      <w>224</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;430.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>8</y>
+      <w>224</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>392</y>
+      <w>224</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;210.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>472</y>
+      <w>224</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;110.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>8</y>
+      <w>224</w>
+      <h>344</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;410.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>8</y>
+      <w>224</w>
+      <h>424</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;510.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>208</y>
+      <w>224</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;140.0</additional_attributes>
+  </element>
+</diagram>
