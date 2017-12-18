@@ -259,17 +259,6 @@ bg=red
     <additional_attributes>10.0;230.0;260.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>712</x>
-      <y>144</y>
-      <w>224</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;80.0;260.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>472</x>
