@@ -9,16 +9,16 @@ public class Trapinch extends Pokemon implements Ground
 	
 	public String moveEarthquake()
 	{
-		return "Trapinch uses Earthquake";
+		return this.getClass().getSimpleName() + " uses Earthquake";
 	}
 	
 	public String moveFissure()
 	{
-		return "Trapinch uses Fissure";
+		return this.getClass().getSimpleName() + " uses Fissure";
 	}
 	
 	public String moveDig()
 	{
-		return "Trapinch uses Dig";
+		return this.getClass().getSimpleName() + " uses Dig";
 	}
 }

@@ -9,16 +9,16 @@ public class Axew extends Pokemon implements Dragon
 	
 	public String moveOutrage()
 	{
-		return "Axew uses Outrage";
+		return this.getClass().getSimpleName() + " uses Outrage";
 	}
 	
 	public String moveDragonDance()
 	{
-		return "Axew uses Dragon Dance";
+		return this.getClass().getSimpleName() + " uses Dragon Dance";
 	}
 	
 	public String moveDragonPulse()
 	{
-		return "Axew uses Dragon Pulse";
+		return this.getClass().getSimpleName() + " uses Dragon Pulse";
 	}
 }
