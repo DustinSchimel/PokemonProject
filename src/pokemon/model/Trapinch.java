@@ -18,6 +18,7 @@ public class Trapinch extends Pokemon implements Ground
 	public Trapinch(int number, String name)
 	{
 		super(number, name);
+		setup();
 	}
 	
 	protected void setup()

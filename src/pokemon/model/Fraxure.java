@@ -17,6 +17,7 @@ public class Fraxure extends Axew
 	public Fraxure(int number, String name)
 	{
 		super(number, name);
+		setup();
 	}
 	
 	@Override

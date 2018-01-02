@@ -17,6 +17,7 @@ public class Axew extends Pokemon implements Dragon
 	public Axew(int number, String name)
 	{
 		super(number, name);
+		setup();
 	}
 	
 	protected void setup()
