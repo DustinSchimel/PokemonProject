@@ -9,16 +9,16 @@ public class Vibrava extends Trapinch implements Dragon
 	
 	public String moveOutrage()
 	{
-		return "Vibrava uses Outrage";
+		return this.getClass().getSimpleName() + " uses Outrage";
 	}
 	
 	public String moveDragonDance()
 	{
-		return "Vibrava uses Dragon Dance";
+		return this.getClass().getSimpleName() + " uses Dragon Dance";
 	}
 	
 	public String moveDragonPulse()
 	{
-		return "Vibrava uses Dragon Pulse";
+		return this.getClass().getSimpleName() + " uses Dragon Pulse";
 	}
 }
