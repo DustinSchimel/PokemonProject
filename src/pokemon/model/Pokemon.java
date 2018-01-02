@@ -63,7 +63,7 @@ public abstract class Pokemon
 	/**
 	 * @return the enhancmentModifier
 	 */
-	public double getEnhancmentModifier()
+	public double getEnhancementModifier()
 	{
 		return enhancmentModifier;
 	}
@@ -111,7 +111,7 @@ public abstract class Pokemon
 	/**
 	 * @param enhancmentModifier the enhancmentModifier to set
 	 */
-	public void setEnhancmentModifier(double enhancmentModifier)
+	public void setEnhancementModifier(double enhancmentModifier)
 	{
 		this.enhancmentModifier = enhancmentModifier;
 	}
