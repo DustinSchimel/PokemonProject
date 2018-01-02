@@ -2,6 +2,11 @@ package pokemon.model;
 
 public class Reshiram extends Pokemon implements Dragon, Fire
 {
+	//public Reshiram()
+	//{
+	//	super()
+	//}
+	
 	public Reshiram(int number, String name)
 	{
 		super(number, name);

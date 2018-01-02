@@ -13,7 +13,7 @@ import javax.swing.JLabel;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 
-public class PokemonPanel
+public class PokemonPanel extends JPanel
 {
 	private PokemonController appController;
 	private SpringLayout appLayout;
@@ -44,6 +44,78 @@ public class PokemonPanel
 	private JPanel secondType;
 	private JPanel thirdType;
 	private JPanel fourthType;
+	
+	public PokemonPanel(PokemonController appController)
+	{
+		super();
+		this.appController = appController;
+		
+		healthLabel = new JLabel("");
+		attackLabel = new JLabel("");
+		nameLabel = new JLabel("");
+		numberLabel = new JLabel("");
+		evolvableLabel = new JLabel("");
+		modifierLabel = new JLabel("");
+		iconLabel = new JLabel("");
+		
+		evolvableBox = new JCheckBox();
+		nameField = new JTextField(0);
+		numberField = new JTextField(0);
+		attackField = new JTextField(0);
+		healthField = new JTextField(0);
+		modifierField = new JTextField(0);
+		
+		descriptionArea = new JTextArea(0, 0);
+		typeArea = new JTextArea(0, 0);
+		
+		saveButton = new JButton("Save");
+		clearButton = new JButton("Clear");
+		pokedexDropdown = new JComboBox();
+		
+		firstType = new JPanel();
+		secondType = new JPanel();
+		thirdType = new JPanel();
+		fourthType = new JPanel();
+		
+		appLayout = new SpringLayout();
+		
+		setupPanel();
+		setupLayout();
+	}
+	
+	private void setupPanel()
+	{
+		this.setBackground(Color.GRAY);
+		this.setLayout(appLayout);
+		this.add(healthLabel);
+		this.add(attackLabel);
+		this.add(nameLabel);
+		this.add(numberLabel);
+		this.add(evolvableLabel);
+		this.add(modifierLabel);
+		this.add(iconLabel);
+		this.add(evolvableBox);
+		this.add(nameField);
+		this.add(numberField);
+		this.add(attackField);
+		this.add(healthField);
+		this.add(modifierField);
+		this.add(descriptionArea);
+		this.add(typeArea);
+		this.add(saveButton);
+		this.add(clearButton);
+		this.add(pokedexDropdown);
+		this.add(firstType);
+		this.add(secondType);
+		this.add(thirdType);
+		this.add(fourthType);
+		
+	}
+	
+	public void setupLayout()
+	{
+		
+	}
 	
 	private void updatePokedexInfo(int index)
 	{
