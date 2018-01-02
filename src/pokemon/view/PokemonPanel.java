@@ -44,4 +44,14 @@ public class PokemonPanel
 	private JPanel secondType;
 	private JPanel thirdType;
 	private JPanel fourthType;
+	
+	private void updatePokedexInfo(int index)
+	{
+		nameField.setText(appController.getPokedex().get(index).getName());
+		evolvableBox.setSelected(appController.getPokedex().get(index).isCanEvolve());
+		numberField.setText(appController.getPokedex().get(index).getNumber() + "");
+		attackField.setText(appController.getPokedex().get(index).getAttackPoints() + "");
+		healthField.setText(appController.getPokedex().get(index).getHealthPoints() + "");
+		modifierField.setText(appController.getPokedex().get(index).getEnhancementModifier() + "");
+	}
 }
