@@ -44,34 +44,55 @@ public class PokemonPanel extends JPanel
 		appLayout = new SpringLayout();
 		
 		healthLabel = new JLabel("Health");
+		healthLabel.setForeground(Color.BLACK);
 		attackLabel = new JLabel("Attack");
+		attackLabel.setForeground(Color.BLACK);
 		nameLabel = new JLabel("Name");
+		nameLabel.setForeground(Color.BLACK);
 		numberLabel = new JLabel("Number");
+		numberLabel.setForeground(Color.BLACK);
 		evolvableLabel = new JLabel("Evolvable");
+		evolvableLabel.setForeground(Color.BLACK);
 		modifierLabel = new JLabel("Modifier");
+		modifierLabel.setForeground(Color.BLACK);
 		
 		iconLabel = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/logo.png")), JLabel.CENTER);
 		
 		evolvableBox = new JCheckBox();
+		evolvableBox.setBackground(Color.LIGHT_GRAY);
 		nameField = new JTextField(0);
+		nameField.setBackground(Color.LIGHT_GRAY);
 		numberField = new JTextField(0);
+		numberField.setBackground(Color.LIGHT_GRAY);
 		numberField.setEditable(false);
 		attackField = new JTextField(0);
+		attackField.setBackground(Color.LIGHT_GRAY);
 		healthField = new JTextField(0);
+		healthField.setBackground(Color.LIGHT_GRAY);
 		modifierField = new JTextField(0);
+		modifierField.setBackground(Color.LIGHT_GRAY);
 		
 		descriptionArea = new JTextArea(1, 1);
+		descriptionArea.setBackground(Color.LIGHT_GRAY);
 		descriptionArea.setEditable(false);
 		typeArea = new JTextArea(1, 1);
+		typeArea.setForeground(Color.BLACK);
+		typeArea.setBackground(Color.GRAY);
 		typeArea.setEditable(false);
 		
 		saveButton = new JButton("Save");
+		saveButton.setForeground(Color.BLACK);
+		saveButton.setBackground(Color.WHITE);
 		saveButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
 		clearButton = new JButton("Clear");
+		clearButton.setForeground(Color.BLACK);
+		clearButton.setBackground(Color.WHITE);
 		pokedexDropdown = new JComboBox();
+		pokedexDropdown.setForeground(Color.BLACK);
+		pokedexDropdown.setBackground(Color.WHITE);
 	
 		firstType = new JPanel();
 		secondType = new JPanel();
