@@ -55,12 +55,15 @@ public class PokemonPanel extends JPanel
 		evolvableBox = new JCheckBox();
 		nameField = new JTextField(0);
 		numberField = new JTextField(0);
+		numberField.setEditable(false);
 		attackField = new JTextField(0);
 		healthField = new JTextField(0);
 		modifierField = new JTextField(0);
 		
 		descriptionArea = new JTextArea(1, 1);
+		descriptionArea.setEditable(false);
 		typeArea = new JTextArea(1, 1);
+		typeArea.setEditable(false);
 		
 		saveButton = new JButton("Save");
 		saveButton.addActionListener(new ActionListener() {
