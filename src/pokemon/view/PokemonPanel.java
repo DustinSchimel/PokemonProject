@@ -96,6 +96,9 @@ public class PokemonPanel extends JPanel
 	{
 		String[] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
 		
+		firstType.setBackground(Color.WHITE);
+		secondType.setBackground(Color.WHITE);
+		
 		if (types[0].equals("Dragon"))
 		{
 			firstType.setBackground(Color.CYAN);
@@ -111,10 +114,6 @@ public class PokemonPanel extends JPanel
 		else if(types[0].equals("Ground"))
 		{
 			firstType.setBackground(Color.YELLOW);
-		}
-		else
-		{
-			firstType.setBackground(Color.WHITE);
 		}
 		
 		if (types.length > 1)
@@ -133,10 +132,6 @@ public class PokemonPanel extends JPanel
 			else if (types[1].equals("Ground"))
 			{
 				secondType.setBackground(Color.YELLOW);
-			}
-			else
-			{
-				secondType.setBackground(Color.WHITE);
 			}
 		
 	}
