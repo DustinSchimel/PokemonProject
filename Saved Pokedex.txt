@@ -1,0 +1,12 @@
+Axew,610,100,50,0.5,true
+Fraxure,611,200,100,1.0,true
+Haxorus,612,300,150,1.5,false
+Trapinch,328,100,50,0.5,true
+Vibrava,329,200,100,1.0,true
+Flygon,330,300,150,1.5,false
+Goomy,704,100,50,0.5,true
+Sliggoo,705,200,100,1.0,true
+Goodra,706,300,150,1.5,false
+Darkrai,491,300,150,1.5,false
+Groudon,383,300,150,1.5,false
+Reshiram,643,300,150,1.5,false

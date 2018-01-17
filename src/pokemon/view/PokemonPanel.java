@@ -45,18 +45,12 @@ public class PokemonPanel extends JPanel
 		
 		healthLabel = new JLabel("Health");
 		attackLabel = new JLabel("Attack");
-		appLayout.putConstraint(SpringLayout.WEST, healthLabel, 0, SpringLayout.WEST, attackLabel);
 		nameLabel = new JLabel("Name");
-		appLayout.putConstraint(SpringLayout.WEST, nameLabel, 0, SpringLayout.WEST, healthLabel);
 		numberLabel = new JLabel("Number");
-		appLayout.putConstraint(SpringLayout.WEST, numberLabel, 0, SpringLayout.WEST, healthLabel);
 		evolvableLabel = new JLabel("Evolvable");
-		appLayout.putConstraint(SpringLayout.WEST, evolvableLabel, 0, SpringLayout.WEST, healthLabel);
 		modifierLabel = new JLabel("Modifier");
 		
 		iconLabel = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/logo.png")), JLabel.CENTER);
-		appLayout.putConstraint(SpringLayout.NORTH, iconLabel, 67, SpringLayout.NORTH, this);
-		appLayout.putConstraint(SpringLayout.EAST, iconLabel, -180, SpringLayout.EAST, this);
 		
 		evolvableBox = new JCheckBox();
 		nameField = new JTextField(0);
@@ -218,6 +212,12 @@ public class PokemonPanel extends JPanel
 		appLayout.putConstraint(SpringLayout.NORTH, nameField, 21, SpringLayout.NORTH, this);
 		appLayout.putConstraint(SpringLayout.WEST, nameField, 401, SpringLayout.WEST, this);
 		appLayout.putConstraint(SpringLayout.SOUTH, evolvableBox, -10, SpringLayout.SOUTH, this);
+		appLayout.putConstraint(SpringLayout.NORTH, iconLabel, 67, SpringLayout.NORTH, this);
+		appLayout.putConstraint(SpringLayout.EAST, iconLabel, -180, SpringLayout.EAST, this);
+		appLayout.putConstraint(SpringLayout.WEST, healthLabel, 0, SpringLayout.WEST, attackLabel);
+		appLayout.putConstraint(SpringLayout.WEST, evolvableLabel, 0, SpringLayout.WEST, healthLabel);
+		appLayout.putConstraint(SpringLayout.WEST, nameLabel, 0, SpringLayout.WEST, healthLabel);
+		appLayout.putConstraint(SpringLayout.WEST, numberLabel, 0, SpringLayout.WEST, healthLabel);
 	}
 	
 	private void updatePokedexInfo(int index)

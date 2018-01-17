@@ -45,12 +45,36 @@ public class PokemonController
 	
 	public boolean isValidInteger(String input)
 	{
-		return true;
+		boolean  isInt = false;
+		
+		try
+		{
+			Integer.parseInt(input);
+			isInt = true;
+		}
+		catch(NumberFormatException error)
+		{
+			//May need to do things here
+		}
+		
+		return isInt;
 	}
 	
 	public boolean isValidDouble(String input)
 	{
-		return true;
+		boolean isDouble = false;
+		
+		try
+		{
+			Double.parseDouble(input);
+			isDouble = true;
+		}
+		catch(NumberFormatException error)
+		{
+			//May need to do things here
+		}
+		
+		return isDouble;
 	}
 	
 	public String [] convertPokedex()
@@ -75,6 +99,7 @@ public class PokemonController
 		selected.setName(name);
 		selected.setHealthPoints(health);
 		
+		FileController.savePokemonToFile((ArrayList<Pokemon>) pokedex);
 	}
 	
 	public void start()
